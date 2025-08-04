@@ -1,0 +1,15 @@
+{
+  "name": "@visual-data-extractor/api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for Visual Data Extractor",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "pytest",
+    "test:cov": "pytest --cov=.",
+    "lint": "flake8 .",
+    "format": "black .",
+    "type-check": "mypy .",
+    "clean": "rm -rf __pycache__ .pytest_cache .mypy_cache"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "visual-data-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visual Data Extractor Chrome Extension with Backend API",
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "type-check": "pnpm -r run type-check",
+    "clean": "pnpm -r run clean",
+    "install:extension": "pnpm --filter @visual-data-extractor/extension install",
+    "install:api": "pnpm --filter @visual-data-extractor/api install",
+    "install:types": "pnpm --filter @visual-data-extractor/types install",
+    "dev:extension": "pnpm --filter @visual-data-extractor/extension run dev",
+    "dev:api": "pnpm --filter @visual-data-extractor/api run dev",
+    "build:extension": "pnpm --filter @visual-data-extractor/extension run build",
+    "build:types": "pnpm --filter @visual-data-extractor/types run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

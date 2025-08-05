@@ -2,12 +2,13 @@
   "name": "@data-slick/types",
   "version": "1.0.0",
   "private": true,
-  "description": "Shared TypeScript types for data-slick project",
-  "main": "index.ts",
-  "types": "index.ts",
+  "description": "Shared TypeScript types for Visual Data Extractor",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

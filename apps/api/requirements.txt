@@ -1,8 +1,9 @@
 # Core dependencies
 requests==2.31.0
+python-dotenv==1.0.0  # For loading .env file in local development
 
-# For future Firecrawl integration
-# firecrawl-py==0.0.14
+# Firecrawl integration
+firecrawl-py==0.0.14
 
 # Testing
 pytest==7.4.3

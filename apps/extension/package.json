@@ -15,7 +15,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@visual-data-extractor/types": "workspace:*",
+    "@data-slick/types": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "clsx": "^2.0.0",
